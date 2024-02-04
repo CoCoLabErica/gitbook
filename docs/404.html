@@ -252,9 +252,9 @@ the table of contents to find the page you are looking for.</p>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
+"github": true,
+"facebook": false,
+"twitter": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
@@ -268,8 +268,8 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/cocolaberica/gitbook/edit/BRANCH/%s",
-"text": "Edit"
+"link": null,
+"text": null
 },
 "history": {
 "link": null,
@@ -286,7 +286,8 @@ gitbook.start({
 },
 "toc": {
 "collapse": "subsection"
-}
+},
+"info": false
 });
 });
 </script>
